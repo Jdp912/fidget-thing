@@ -2,6 +2,10 @@ import React, {Component} from 'react';
 import './App.css';
 import TextInput from './Components/TextInput';
 import DateInput from './Components/DateInput';
+import NumberInput from './Components/NumberInput';
+import ButtonInput from './Components/ButtonInput';
+import RadioInput from './Components/RadioInput'
+import ColorInput from './Components/ColorInput'
 
 class App extends Component  {
   render() {
@@ -10,6 +14,10 @@ class App extends Component  {
         <ul className="cards">
           <TextInput />
           <DateInput />
+          <NumberInput />
+          <ColorInput />
+          <ButtonInput />
+          <RadioInput />          
           <li className="NumberInput cards-item">
             <div className="card">
               <div className="card-content">
